@@ -70,8 +70,6 @@ export const Inputcomp = ({label,value,type="text",ismand,inpstyles,placeholder,
                         borderRadius: "10px",
                         ...inpstyles
                     }}
-                    
-
                 />
             </>
             )
