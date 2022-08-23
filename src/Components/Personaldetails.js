@@ -75,7 +75,7 @@ export const Personaldetails = ()=>{
                     placeholder = "DD/MM/YYYY"
                 />
 
-            <Inputcomp type = "radio" name = "Gender" ismand="true" value={["Male","Female","Others"]}/>
+            <Inputcomp label="Gender" type = "radio" name = "gender" ismand="true" value={["Male","Female","Others"]}/>
                 
             </Box>
             </Box>
