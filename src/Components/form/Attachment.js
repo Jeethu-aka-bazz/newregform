@@ -1,7 +1,7 @@
 import React from "react";
-import { Box } from "./Reusecomp/Box";
-import { Textcomp } from "./Reusecomp/Textcomp";
-import { Butn } from "./Reusecomp/Buttoncomp";
+import { Box } from "../Reusecomp/Box";
+import { Textcomp } from "../Reusecomp/Textcomp";
+import { Butn } from "../Reusecomp/Buttoncomp";
 
 const ismand = "true";
 

@@ -1,11 +1,11 @@
 import React from "react";
-import { Box } from "./Reusecomp/Box";
+import { Box } from "../Reusecomp/Box";
 import { Formintro } from "./Formintro";
-import { Jobdetail } from "./Jobdetail";
-import { Personaldetails } from "./Personaldetails";
-import { Educationaldetails } from "./Educationaldetails";
+import { Jobdetail } from "../jobdetails/Jobdetail";
+import { Personaldetails } from "../personaldetails/Personaldetails";
+import { Educationaldetails } from "../educationdetails/Educationaldetails";
 import { Attachment } from "./Attachment";
-import { Butn } from "./Reusecomp/Buttoncomp";
+import { Butn } from "../Reusecomp/Buttoncomp";
 
 export const Form = ()=>{
     return (

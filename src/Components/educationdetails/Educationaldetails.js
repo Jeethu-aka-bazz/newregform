@@ -1,7 +1,7 @@
 import React from "react";
 import { Lowestedu } from "./Lowestedu";
-import { Textcomp } from "./Reusecomp/Textcomp";
-import { Box } from "./Reusecomp/Box";
+import { Textcomp } from "../Reusecomp/Textcomp";
+import { Box } from "../Reusecomp/Box";
 import { Highestedu } from "./Highestedu";
 
 export const Educationaldetails = ()=>{

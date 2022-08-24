@@ -1,6 +1,6 @@
 import React from "react";
-import { Box } from "./Reusecomp/Box";
-import { Textcomp } from "./Reusecomp/Textcomp";
+import { Box } from "../Reusecomp/Box";
+import { Textcomp } from "../Reusecomp/Textcomp";
 
 export const Header = ()=>{
     return(

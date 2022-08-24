@@ -1,8 +1,32 @@
 import React from "react";
-import {App} from "../src/Components/App"  
+import { createGlobalStyle } from "styled-components";
+import { Header } from "../src/Components/appcomp/Header";
+import { Form } from "../src/Components/form/Form";
+import { Footer } from "../src/Components/appcomp/Footer";
+import  Dropdowncomp  from "../src/Components/Reusecomp/Dropdowncomp";
 
-const HomePage=()=>{
-    return <App/>
+
+const Globalstyle = createGlobalStyle`
+body {
+    font-family: 'Helvetica';
+    font-style: "normal";
+    margin: 0;
 }
+`;
 
-export default HomePage
+const HomePage = () => {
+  return (
+    <>
+    <Dropdowncomp />
+      {/* <Globalstyle />
+      <Header />
+      <Form />
+      <Footer /> */}
+
+      {/* <FloatingWind />
+            <Thankyou /> */}
+    </>
+  );
+};
+
+export default HomePage;

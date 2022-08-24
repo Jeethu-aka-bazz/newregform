@@ -1,22 +1,21 @@
 import React from "react";
-import { Header } from "./Header";
-import { Form } from "./Form";
-import { Footer } from "./Footer";
-import { FloatingWind } from "./Floatingwind";
-import { Thankyou } from "./Thankyou";
-import { Inputcomp } from "./Reusecomp/Inputcomp"
+import { Header } from "./appcomp/Header";
+import { Form } from "./form/Form";
+import { Footer } from "./appcomp/Footer";
 
 
 export const App = ()=>{
     return (
-        <>
+        <div>
             <Header />
             <Form />
             <Footer />
             {/* <FloatingWind />
             <Thankyou /> */}
 
-        </>
+
+
+        </div>
 
     )
 }

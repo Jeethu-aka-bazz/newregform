@@ -1,5 +1,5 @@
 import React from "react";
-import { Textcomp } from "./Reusecomp/Textcomp";
+import { Textcomp } from "../Reusecomp/Textcomp";
 
 export const Footer = () =>{
     return (

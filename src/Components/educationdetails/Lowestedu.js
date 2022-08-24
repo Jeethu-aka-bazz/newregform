@@ -1,7 +1,7 @@
 import React from "react";
-import { Textcomp } from "./Reusecomp/Textcomp";
-import { Inputcomp } from "./Reusecomp/Inputcomp";
-import { Box } from "./Reusecomp/Box";
+import { Textcomp } from "../Reusecomp/Textcomp";
+import { Inputcomp } from "../Reusecomp/Inputcomp";
+import { Box } from "../Reusecomp/Box";
 
 
 export const Lowestedu = ()=>{
